@@ -24,13 +24,16 @@
 /* helpers */
 .text-outline {
   text-shadow:
-    2px 2px 0 rgba(0,0,0,0.35),
-    -2px 2px 0 rgba(0,0,0,0.35),
-    2px -2px 0 rgba(0,0,0,0.35),
-    -2px -2px 0 rgba(0,0,0,0.35);
+    2px 2px 0 rgba(0,0,0,0.95),
+    -2px 2px 0 rgba(0,0,0,0.95),
+    2px -2px 0 rgba(0,0,0,0.95),
+    -2px -2px 0 rgba(0,0,0,0.95);
 }
+
+
+
 .hero-overlay {
-  background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.75) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.0) 10%, rgba(0,0,0,0.0) 90%, rgba(0,0,0,0.8) 100%);
 }
 
 
