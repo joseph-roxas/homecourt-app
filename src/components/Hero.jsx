@@ -12,7 +12,7 @@ const phrases = [
 export default function Hero() {
   return (
     <section className="relative">
-      <div className="relative h-[54vh] sm:h-[78vh] w-full">
+      <div className="relative h-[60vh] sm:h-[78vh] w-full">
         <img
           src="/hero.png"
           alt="Homecourt Table Tennis Hero"
