@@ -2,8 +2,7 @@ import React from 'react'
 import RotatingText from './RotatingText.jsx'
 
 const phrases = [
-  "Table Tennis Court at Roxas Building",
-  "From Rallies To Friendships",
+  "Table Tennis Court",
   "Play. Learn. Compete.",
   "Open to All Levels",
   "From Beginners to Beast",
@@ -13,7 +12,7 @@ const phrases = [
 export default function Hero() {
   return (
     <section className="relative">
-      <div className="relative h-[72vh] sm:h-[78vh] w-full">
+      <div className="relative h-[54vh] sm:h-[78vh] w-full">
         <img
           src="/hero.png"
           alt="Homecourt Table Tennis Hero"
@@ -23,10 +22,10 @@ export default function Hero() {
         
         {/* Positioning */}
         <div className="absolute inset-0 flex items-center">
-          <div className="w-full mx-auto px-4 -mt-16 sm:-mt-16">
+          <div className="w-full mx-auto px-4 mt-10 sm:-mt-0">
             {/* STATIC heading (no motion wrapper) */}
-            <h2 className="font-brand text-3xl sm:text-3xl md:text-4xl tracking-wide text-white text-outline drop-shadow-glow">
-              Welcome to Homecourt
+            <h2 className="font-brand text-4xl sm:text-3xl md:text-4xl tracking-wide text-black leading-none">
+              Welcome to<br />Homecourt
             </h2>
 
             {/* Animated phrases ONLY */}
@@ -36,7 +35,7 @@ export default function Hero() {
                 interval={2600}
                 className="relative inline-block w-[36ch] sm:w-[40ch] md:w-[44ch]
                            font-brand text-xl sm:text-3xl md:text-5xl leading-tight
-                           text-white text-outline drop-shadow-glow will-change-transform"
+                           text-black will-change-transform"
               />
             </div>
           </div>

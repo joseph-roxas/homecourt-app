@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import OfficialInfo from './components/OfficialInfo.jsx'
+import Facilities from './components/Facilities.jsx'
 import Footer from './components/Footer.jsx'
 import SlideOver from './components/SlideOver.jsx'
 
@@ -16,6 +17,7 @@ export default function App() {
         <Hero />
         <OfficialInfo />
       </main>
+      <Facilities />
       <Footer />
       <SlideOver open={open} onClose={() => setOpen(false)} />
     </div>
